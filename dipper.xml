@@ -1,0 +1,19 @@
+<manifest>
+        <!-- LineageOS Github -->
+   <remote name="lineage"
+   fetch="https://github.com/LineageOS"
+   revision="lineage-21.0" />
+
+        <!-- The Muppets Github -->
+   <remote name="muppets"
+   fetch="https://github.com/TheMuppets"
+   revision="lineage-21.0" />
+
+        <!-- Dipper -->
+        <project name="android_device_xiaomi_dipper" path="device/xiaomi/dipper" remote="lineage"/>
+        <project name="android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="lineage"/>
+        <project name="android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="lineage"/>
+        <project name="proprietary_vendor_xiaomi_dipper" path="vendor/xiaomi/dipper" remote="muppets"/>
+<project name="proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="muppets"/>
+        <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="lineage"/>
+</manifest>
